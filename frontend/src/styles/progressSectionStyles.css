@@ -1,0 +1,28 @@
+.progressSectionContainer {
+  background: #f4f6f5;
+  margin-left: 20px;
+}
+.progressSectionContainer h4 {
+  background: #f4f6f5;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dataContainer div {
+  margin: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.dataContainer h4 {
+  text-align: center;
+  background: transparent;
+}
+
+.dataContainer p {
+  text-align: center;
+  margin-top: -20px;
+}

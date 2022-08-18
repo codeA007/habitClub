@@ -1,0 +1,44 @@
+.createAccountContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #f4f6f5;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.createAccountContainer .profilePic {
+  align-self: center;
+}
+.createAccountForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  background: white;
+  border: 0.5px solid gray;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  background: #0089e5;
+  color: #fff;
+  border-radius: 3px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .createAccountContainer {
+    justify-content: start;
+  }
+  .createAccountForm {
+  }
+}

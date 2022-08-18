@@ -1,0 +1,28 @@
+.habitsContainer {
+  height: 100vh;
+  overflow: auto;
+  padding-bottom: 135px;
+}
+.habitsContainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.habitNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.habitNavbar button {
+  width: 100px;
+  background: rgb(0, 137, 229);
+  border: none;
+  padding: 6px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.habitNavbar {
+  border-bottom: 0.5px solid #dedcdf;
+}
+
+@media only screen and (max-width: 600px) {
+}

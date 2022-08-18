@@ -1,0 +1,9 @@
+.homePageGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+@media only screen and (max-width: 600px) {
+  .homePageGrid {
+    display: block;
+  }
+}

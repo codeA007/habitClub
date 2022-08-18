@@ -1,0 +1,32 @@
+.leaderboardContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  overflow: auto;
+}
+.rankContainer {
+  justify-self: center;
+  overflow: auto;
+}
+.rank {
+  background: #f4f6f5;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  overflow: auto;
+}
+.rankContainer h4 {
+  align-self: center;
+}
+@media only screen and (max-width: 600px) {
+  .leaderboardContainer {
+    display: block;
+  }
+  .rankContainer {
+    max-width: 500px;
+  }
+  .rank {
+    width: 100%;
+  }
+}

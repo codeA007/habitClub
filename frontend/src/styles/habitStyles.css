@@ -1,0 +1,40 @@
+.habitContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #f4f6f5;
+  border-radius: 3px;
+  cursor: pointer;
+  border-bottom: 0.5px solid #c3c4c4;
+  margin-bottom: 8px;
+}
+.habitContainer p {
+  color: black;
+}
+.habitContainer i {
+  padding: 5px;
+  margin-right: 5px;
+  background: white;
+  border-radius: 20%;
+  color: black;
+  cursor: pointer;
+}
+.habitContainer i:hover {
+  background: #0089e5;
+  color: white;
+}
+.info {
+  display: none;
+  background-color: #f4f6f5;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+.info p {
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .info {
+    display: none;
+  }
+}
